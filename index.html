@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Acharya - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Nishant<span class="dot">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Work</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <path
+                            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42">
+                        </path>
+                    </svg>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button id="music-toggle" class="music-btn" aria-label="Toggle music">
+                    <span class="music-label">Music</span>
+                    <div class="music-icon-wrapper">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M9 18V5l12-2v13"></path>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <circle cx="18" cy="16" r="3"></circle>
+                        </svg>
+                    </div>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content" data-scroll>
+                    <span class="greeting">Hi, I'm Nishant Acharya</span>
+                    <h1 class="hero-title">Building <span class="text-gradient">Digital Experiences</span> that matter.
+                    </h1>
+                    <p class="hero-description">
+                        Accounting & CIS Student | Aspiring Developer | Problem Solver.
+                        Creating seamless web applications and interactive user interfaces.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="proflix_landing.html" class="btn btn-primary">Launch Proflix 🍿</a>
+                        <a href="#projects" class="btn btn-outline">View All Work</a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-scroll>
+                    <!-- Abstract Code/Tech Visual or Profile Image -->
+                    <div class="profile-card-tilt">
+                        <img src="profile.jpg" alt="Nishant Acharya" class="hero-img">
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                </svg>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header" data-scroll>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">My Journey & Background</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text" data-scroll>
+                        <p>
+                            I am a student at <strong>Caldwell University</strong> pursuing a Bachelor's in Accounting
+                            and Computer Information Systems with a <strong>4.0 GPA</strong> (Expected Dec 2028).
+                            Previously, I graduated from <strong>Everest English Boarding School</strong> (Nepal) with a
+                            3.66 GPA.
+                        </p>
+                        <p>
+                            My passion lies at the intersection of business logic and technical innovation.
+                            Count on me for <strong>Python, Java, C++</strong>, and technical support.
+                            I am fluent in <strong>English and Nepali</strong>.
+                        </p>
+                        <div class="skills-tags">
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>C++</span>
+                            <span>Microsoft Office</span>
+                            <span>Blackboard</span>
+                            <span>Database Navigation</span>
+                            <span>Peer Mentoring</span>
+                            <span>Team Collaboration</span>
+                            <span>Problem-Solving</span>
+                        </div>
+                    </div>
+                    <div class="about-video" data-scroll>
+                        <div class="video-wrapper">
+                            <iframe title="vimeo-player" src="https://player.vimeo.com/video/192376447?h=9cc4014b31"
+                                width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header" data-scroll>
+                    <h2 class="section-title">Selected Work</h2>
+                    <p class="section-subtitle">Highlights from my portfolio</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: Proflix -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Web App</span>
+                                <span class="tag">Streaming</span>
+                            </div>
+                            <h3>Proflix</h3>
+                            <p>A premium streaming service simulation featuring a Netflix-inspired UI, user
+                                authentication flow, and a rich media browsing experience.</p>
+                            <a href="proflix_landing.html" class="btn btn-primary btn-magnetic"
+                                style="margin-top: 1rem; display: inline-flex;">Try App</a>
+                        </div>
+                        <div class="project-visual proflix-bg">
+                            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/US-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+                                alt="Proflix UI" class="project-img-preview">
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Portfolio -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Design</span>
+                                <span class="tag">Frontend</span>
+                            </div>
+                            <h3>Portfolio V2</h3>
+                            <p>This website! A showcase of modern web design principles including glassmorphism, scroll
+                                animations, and responsive layout.</p>
+                            <a href="#" class="btn btn-primary btn-magnetic"
+                                style="margin-top: 1rem; display: inline-flex;">View Code</a>
+                        </div>
+                        <div class="project-visual portfolio-bg">
+                            <div class="abstract-visual">
+                                <div class="circle"></div>
+                                <div class="square"></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Field Day -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Event</span>
+                                <span class="tag">Management</span>
+                            </div>
+                            <h3>Field Day</h3>
+                            <p>An event management and information page for campus field day activities.</p>
+                            <a href="field_day.html" class="btn btn-primary btn-magnetic"
+                                style="margin-top: 1rem; display: inline-flex;">View Project</a>
+                        </div>
+                        <div class="project-visual field-bg">
+                            <div class="abstract-visual color-green">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Restaurant Management System -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">Dashboard</span>
+                            </div>
+                            <h3>GourmetOS</h3>
+                            <p>A comprehensive Restaurant Management System featuring real-time order tracking,
+                                inventory management, and role-based dashboards.</p>
+                            <a href="restaurant-management-system/app/page.tsx" class="btn btn-primary btn-magnetic"
+                                style="margin-top: 1rem; display: inline-flex;">View Code</a>
+                        </div>
+                        <div class="project-visual rms-bg">
+                            <div class="abstract-visual color-orange">
+                                <div class="circle" style="border-radius: 10px; transform: rotate(15deg);"></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header" data-scroll>
+                    <h2 class="section-title">Experience</h2>
+                    <p class="section-subtitle">My professional timeline</p>
+                </div>
+                <div class="timeline">
+                    <!-- Timeline Items -->
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2025 - Present</span>
+                        <div class="content">
+                            <h3>Library Student Worker</h3>
+                            <span class="company">Caldwell University Library</span>
+                            <p>Managing circulation operations and providing technical support to students and faculty.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2025 - Present</span>
+                        <div class="content">
+                            <h3>Student Ambassador</h3>
+                            <span class="company">Multicultural Center</span>
+                            <p>Fostering inclusivity and assisting international students with campus transition.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2025 - Present</span>
+                        <div class="content">
+                            <h3>Secretary</h3>
+                            <span class="company">Commuter Student Association</span>
+                            <p>Coordinating communications and planning engagement events for commuter students.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2025 - Present</span>
+                        <div class="content">
+                            <h3>Event Manager</h3>
+                            <span class="company">Ping Pong Club, Caldwell University</span>
+                            <p>Coordinating tournaments and student events to promote engagement and wellness.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2022 - 2023</span>
+                        <div class="content">
+                            <h3>STEM Tutor</h3>
+                            <span class="company">Shree Ganesh Gyan Jyoti Public High School</span>
+                            <p>Taught STEM subjects to middle school students through engaging lessons and inquiry-based
+                                learning.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-scroll>
+                        <span class="date">2020 - 2022</span>
+                        <div class="content">
+                            <h3>Founder & Leader</h3>
+                            <span class="company">We Enthusiast Club</span>
+                            <p>Launched a club focused on academic mentoring and science Olympiad prep.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <div class="contact-text" data-scroll>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        visions.</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="label">Email</span>
+                            <a href="mailto:nacharya@caldwell.edu" class="value">nacharya@caldwell.edu</a>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Phone</span>
+                            <span class="value">(443) 935-0868</span>
+                        </div>
+                        <div class="social-row">
+                            <a href="#" class="social-icon">IN</a>
+                            <a href="#" class="social-icon">GH</a>
+                            <a href="#" class="social-icon">TW</a>
+                        </div>
+                        <!-- Restored Map -->
+                        <div class="map-container"
+                            style="margin-top: 2rem; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+                            <iframe
+                                src="https://maps.google.com/maps?q=Caldwell%20University&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-scroll>
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Nishant Acharya.</p>
+                <p>Designed & Built with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio Element -->
+    <audio id="bg-music" loop>
+        <source src="https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Weather Widget -->
+    <div class="weather-widget" id="weather-widget">
+        <div class="weather-icon" id="weather-icon">☀️</div>
+        <div class="weather-info">
+            <span class="weather-temp" id="weather-temp">--°</span>
+            <div class="weather-details">
+                <span id="weather-wind" class="weather-detail"></span>
+                <span id="weather-precip" class="weather-detail"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot (Preserved) -->
+    <div class="chatbot-container">
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <h3>AI Assistant</h3>
+                <button id="close-chat" aria-label="Close chat">✕</button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">Hi! I'm Nishant's assistant. Ask me anything!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+        <button id="chat-toggle" class="chat-toggle-btn" aria-label="Open chat">💬</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
